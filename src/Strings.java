@@ -50,5 +50,10 @@ public class Strings {
 
         // 14. Compare strings (case insensitive)
         System.out.println("John".equalsIgnoreCase("john")); // true
+
+        // 15. special characters
+        System.out.println("Hello \"World\""); // Hello "World"
+        System.out.println("Hello \nWorld"); // Hello
+        // World
     }
 }
