@@ -27,5 +27,23 @@ public class Loops {
         for (String car : cars) {
             System.out.println("This is a " + car);
         }
+        System.out.println("======================================");
+
+        // Break
+        for (int l = 0; l < 10; l++) {
+            if (l == 4) {
+                break;
+            }
+            System.out.println("Current value of l: " + l);
+        }
+        System.out.println("======================================");
+
+        // Continue
+        for (int m = 0; m < 10; m++) {
+            if (m == 4) {
+                continue;
+            }
+            System.out.println("Current value of m: " + m);
+        }
     }
 }
