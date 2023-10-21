@@ -55,5 +55,20 @@ public class Strings {
         System.out.println("Hello \"World\""); // Hello "World"
         System.out.println("Hello \nWorld"); // Hello
         // World
+
+        // 16. Escape characters
+        System.out.println("Hello \\World"); // Hello \World
+
+
+        // 17. String builder
+        StringBuilder sb = new StringBuilder();
+        sb.append("Hello");
+        sb.append(" ");
+        sb.append("universe");
+        System.out.println(sb.toString()); // Hello universe
+
+        // Convert to an array of characters
+        char[] characters = fullName.toCharArray();
+        System.out.println(characters[0]); // John Doe
     }
 }
