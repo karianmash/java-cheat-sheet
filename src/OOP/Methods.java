@@ -22,4 +22,7 @@ public class Methods {
     static int square(int x) {
         return x * x;
     }
+
+    // NB: Static method can only access static variables and belongs to the class
+    // Public method can access both static and non-static variables and belongs to the object
 }
